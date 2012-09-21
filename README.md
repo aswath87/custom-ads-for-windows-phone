@@ -25,4 +25,23 @@ How To/ Get Started:
 =====================
 1. Check out SampleAdConfigFile and make one of your own 
 2. Check out SampleImplementationOfCustomAdClient to get an idea of how it's used. 
-This isn't complete - just has the relevant snippets 
+This isn't complete, but just has the relevant snippets 
+
+To get started:
+
+Initialization: 
+You need the app name, the uri to wherever you are hosting your config file
+CustomAdClient _adClient = new CustomAdClient(AppName, new Uri(@"https://dl-web.dropbox.com/get/Public/adServer2.txt?w=9fd5ede2", false));
+
+Update: 
+This checks to see if the cached ad config (if it exists) needs to be updated and updates it (Usually you should do it at app start, on a seperate thread)
+Dispatcher.BeginInvoke(() =>
+{
+    _adClient.UpdateAdConfig();
+}
+
+Get an ad: 
+This will select an ad for you based on it's weightage or return null if nothing is selected 
+AdImageUnit adImageUnit = _adClient.SelectAd(false);
+
+              
