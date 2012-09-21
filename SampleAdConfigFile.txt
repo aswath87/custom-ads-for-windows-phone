@@ -1,0 +1,18 @@
+{
+"id": 3, 
+"update_frequency_in_hours": 24, 
+"adunits": [
+{
+   "name": "Friend Central",
+   "uri": "marketplace: 26e62906-329a-453a-9523-f94ce96bb524",
+   "image_uri": "http://i42.tinypic.com/ay0fn5.jpg",
+   "display_percentage": "10"
+}, 
+{
+   "name": "Wikipedia",
+   "uri": "http://www.wikipedia.org",
+   "image_uri": "http://i42.tinypic.com/ay0fn5.jpg",
+   "display_percentage": "20"
+}
+]
+}

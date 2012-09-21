@@ -11,7 +11,8 @@ using System.Windows.Media.Imaging;
 namespace ProjectBrowser
 {
     /// <summary>
-    /// CustomAdClient helps you push ads to your apps. You control what ads are displayed and how much through a config file that you host. 
+    /// CustomAdClient helps you push ads to your apps. 
+    /// You control what ads are displayed and how much through a config file that you host. 
     /// </summary>
     public class CustomAdClient
     {
@@ -298,7 +299,7 @@ namespace ProjectBrowser
         }
 
         /// <summary>
-        /// Callback method when image read to local cache completes
+        /// Callback method when image read to local buffer completes
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
