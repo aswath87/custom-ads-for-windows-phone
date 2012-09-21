@@ -20,3 +20,9 @@ Features:
 2. Supports multiple ads, weightage for every ad (how often an ad should be displayed) etc. 
 3. Offline mode: Once ads are loaded, this works offline too. 
 4. Plays well with other AdControls - so you get to push your own ads or display ads from a different ad provider or mix them up. 
+
+How To/ Get Started: 
+=====================
+1. Check out SampleAdConfigFile and make one of your own 
+2. Check out SampleImplementationOfCustomAdClient to get an idea of how it's used. 
+This isn't complete - just has the relevant snippets 
