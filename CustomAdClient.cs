@@ -176,6 +176,7 @@ namespace ProjectBrowser
                 jsonAdConfig = reader.ReadToEnd();
             }
 
+            // Parse json to get values for ad config 
             if (!String.IsNullOrEmpty(jsonAdConfig))
             {
                 JObject adConfigJObject = JsonConvert.DeserializeObject<JObject>(jsonAdConfig);
