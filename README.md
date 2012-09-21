@@ -20,15 +20,3 @@ Features:
 2. Supports multiple ads, weightage for every ad (how often an ad should be displayed) etc. 
 3. Offline mode: Once ads are loaded, this works offline too. 
 4. Plays well with other AdControls - so you get to push your own ads or display ads from a different ad provider or mix them up. 
-
-
-2. You want to promote some other product/app/non-profit/anything
-3. You sourced your own ads and you want to push them 
-4. ...
-
-Features 
-============================
-1. You don't need to host a server! : You just need to host a config file somewhere. I use a dropbox public file to host my config file. 
-2. Supports multiple ads, weightage for every ad (how often an ad should be displayed) etc. 
-2. Offline mode: Once ads are loaded, this works offline too. 
-3. You can use it along with any other AdControl - so you get to push your own ads or display ads from a different ad provider or mix them up. 
